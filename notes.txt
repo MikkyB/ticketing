@@ -1,0 +1,4 @@
+remove the nested a tags from the Link components.
+<Link href="/tickets/[ticketId]" as={`/tickets/${ticket.id}`}>
+  View
+</Link>
